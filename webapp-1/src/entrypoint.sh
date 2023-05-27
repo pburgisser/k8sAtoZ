@@ -1,0 +1,1 @@
+gunicorn -b 0.0.0.0:8080 --workers=1 wsgi:app --timeout 200 --log-file -
