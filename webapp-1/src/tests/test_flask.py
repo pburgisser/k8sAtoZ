@@ -1,4 +1,3 @@
-import pytest
 from app import app
 
 def test_index_route():
