@@ -1,6 +1,9 @@
 name: Python package
 
-on: [push]
+on:
+  push:
+    path:
+      -  webapp-1/*
 
 jobs:
   build:
